@@ -15,7 +15,7 @@ The system combines:
 
 ## ✨ Features
 
-- Load the [Enron Email Dataset](https://www.cs.cmu.edu/~enron/) (CSV format)  
+- Load the [Enron Email Dataset](https://www.kaggle.com/datasets/wcukierski/enron-email-dataset/data) (CSV format)  
 - Extract header-only features  
 - **Heuristic scoring** (rule-based flags with explanations)  
 - **Train Anomaly Model** (IsolationForest learns "normal" headers)  
