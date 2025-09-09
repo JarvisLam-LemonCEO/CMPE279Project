@@ -54,7 +54,7 @@ python PDS.py
 
 ---
 
-## 🖥Demo Workflow
+## Demo Workflow
 
 ### Dataset & Training
 1. Open the app (`python PDS.py`).  
