@@ -13,7 +13,7 @@ The system combines:
 
 ---
 
-## ✨ Features
+## Features
 
 - Load the [Enron Email Dataset](https://www.kaggle.com/datasets/wcukierski/enron-email-dataset/data) (CSV format)  
 - Extract header-only features  
@@ -52,11 +52,12 @@ pip install -r requirements.txt
 python PDS.py
 ```
 
+---
 
-## 🖥️ Demo Workflow
+## 🖥Demo Workflow
 
 ### Dataset & Training
-1. Open the app (`python PDS_merged_enron_llm.py`).  
+1. Open the app (`python PDS.py`).  
 2. Go to **Dataset & Training** tab.  
 3. Select your **Enron CSV file** (column: `message`).  
 4. Click **Build Dataset**.  
@@ -73,5 +74,3 @@ python PDS.py
    - Anomaly status (if trained)  
    - LLM verdict (if enabled)  
    - Final **hybrid decision**
-
----
