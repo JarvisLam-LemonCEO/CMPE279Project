@@ -1,0 +1,21 @@
+Return-Path: <no-reply@secure-update.com>
+Received: from suspicious.domain (unknown [203.0.113.55])
+    by mail.example.com with ESMTP id 1234567890
+    for <user@example.com>; Mon, 8 Sep 2025 12:34:56 -0700 (PDT)
+From: "PayPal Security Alert" <no-reply@secure-update.com>
+Reply-To: account-verification@phishingsite.xyz
+Subject: Urgent: Your PayPal Account Has Been Suspended
+To: user@example.com
+Message-ID: <random12345@secure-update.com>
+Date: Mon, 8 Sep 2025 12:34:56 -0700
+MIME-Version: 1.0
+Content-Type: text/html; charset="UTF-8"
+
+<html>
+  <body>
+    <p>Dear Customer,</p>
+    <p>We detected suspicious activity on your account. Please <a href="http://phishingsite.xyz/verify">click here</a> to verify your information and restore access.</p>
+    <p>Failure to do so within 24 hours will result in permanent suspension.</p>
+    <p>Thank you,<br>PayPal Security Team</p>
+  </body>
+</html>

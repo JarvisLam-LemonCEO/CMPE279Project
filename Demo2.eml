@@ -1,0 +1,29 @@
+Return-Path: <notifications@example.org>
+Received: from mailout01.example.org (mailout01.example.org [198.51.100.10])
+    by mx.example.com with ESMTPS id 12345ABCDEF
+    for <user@example.com>; Mon, 8 Sep 2025 12:45:10 -0700 (PDT)
+Received: from app01.example.org (app01.example.org [198.51.100.20])
+    by mailout01.example.org with ESMTPSA id 67890QWERTY
+    for <user@example.com>; Mon, 8 Sep 2025 12:45:08 -0700 (PDT)
+From: "Example Notifications" <notifications@example.org>
+Reply-To: "Example Support" <support@example.org>
+To: user@example.com
+Subject: Weekly account summary
+Message-ID: <20250908.124508.abc123@app01.example.org>
+Date: Mon, 8 Sep 2025 12:45:08 -0700
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+Authentication-Results: mx.example.com; spf=pass smtp.mailfrom=example.org;
+    dkim=pass header.d=example.org; dmarc=pass (p=reject) header.from=example.org
+DKIM-Signature: v=1; a=rsa-sha256; d=example.org; s=default; c=relaxed/relaxed; q=dns/txt;
+ h=from:to:subject:date:message-id:mime-version:content-type;
+ bh=47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;
+ b=abc123def456ghi789jkl012mno345pqr678stu901vwx234yz567abc890def123;
+
+Hello user,
+
+Here is your weekly account summary. Everything looks normal. If you have
+any questions, please reply to this email or contact support@example.org.
+
+Thanks,
+Example Team
