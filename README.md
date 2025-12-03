@@ -1,5 +1,5 @@
 # CMPE279 Project
-# Phishing Detection System Using Email Header Analysis
+# Phishing Detection System (A Python GUI Application)
 
 A Python desktop application (Tkinter GUI) for detecting **phishing emails** based on **email header analysis**.  
 The system combines:
